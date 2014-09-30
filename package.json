@@ -1,13 +1,14 @@
 {
-    "name": "ng-spa",
-    "description": "A simple SPA with AngularJS",
-    "version": "0.0.1",
-    "author": "Mats Lundström",
-    "homepage": "https://github.com/lunmat/ng-spa",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/lunmat/ng-spa.git"
-    },
-    "devDependencies": {
-    }
+  "name": "ng-spa",
+  "description": "A simple SPA with AngularJS",
+  "version": "0.0.1",
+  "author": "Mats Lundström",
+  "homepage": "https://github.com/lunmat/ng-spa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lunmat/ng-spa.git"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
