@@ -1,0 +1,13 @@
+{
+    "name": "ng-spa",
+    "description": "A simple SPA with AngularJS",
+    "version": "0.0.1",
+    "author": "Mats Lundström",
+    "homepage": "https://github.com/lunmat/spa-ng",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lunmat/spa-ng.git"
+    },
+    "devDependencies": {
+    }
+}
