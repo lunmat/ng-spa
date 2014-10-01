@@ -5,6 +5,15 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
 
+    jshint: {
+      gruntfile: {
+        options: {
+          jshintrc: '.jshintrc'
+        },
+        src: 'Gruntfile.js'
+      }
+    }
+
   });
 
   grunt.registerTask('default', []);
