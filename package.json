@@ -9,6 +9,7 @@
     "url": "https://github.com/lunmat/ng-spa.git"
   },
   "devDependencies": {
-    "grunt": "^0.4.5"
+    "grunt": "^0.4.5",
+    "load-grunt-tasks": "^0.6.0"
   }
 }
