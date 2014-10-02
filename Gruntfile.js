@@ -13,7 +13,15 @@ module.exports = function (grunt) {
         },
         src: 'Gruntfile.js'
       }
+    },
+
+    watch: {
+      gruntfile: {
+        files: '<%= jshint.gruntfile.src %>',
+        tasks: ['jshint:gruntfile']
+      }
     }
+
 
   });
 
