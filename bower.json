@@ -1,15 +1,16 @@
 {
-    "name": "ng-spa",
-    "description": "A simple SPA with AngularJS",
-    "author": [
-        "Mats Lundström"
-    ],
-    "homepage": "https://github.com/lunmat/ng-spa",
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components"
-    ],
-    "dependencies": {
-    }
+  "name": "ng-spa",
+  "description": "A simple SPA with AngularJS",
+  "author": [
+    "Mats Lundström"
+  ],
+  "homepage": "https://github.com/lunmat/ng-spa",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
 }
