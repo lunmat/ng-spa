@@ -1,0 +1,15 @@
+{
+    "name": "ng-spa",
+    "description": "A simple SPA with AngularJS",
+    "author": [
+        "Mats Lundström"
+    ],
+    "homepage": "https://github.com/lunmat/ng-spa",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+    }
+}
