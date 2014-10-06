@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-  <meta charset="UTF-8">
-  <title>ng-spa</title>
+<html data-ng-app="myApp" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ng-spa - A simple SPA with AngularJS</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="../../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="./app.css" rel="stylesheet">
 </head>
 <body>
 
+    <form class="form-horizontal" name="myForm" ng-controller="myCtrl">
+        <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">Name:</label>
+
+            <div class="col-sm-6">
+                <input id="name"
+                       class="form-control"
+                       name="name"
+                       type="text"
+                       required
+                       ng-model="myName">
+            </div>
+        </div>
+    </form>
+
+    <script src="../../bower_components/angularjs/angular.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
