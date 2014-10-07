@@ -1,7 +1,11 @@
 angular.module('myApp', [])
-    .controller('myCtrl', function($scope){
-      'use strict';
+  .controller('myCtrl', function ($scope) {
+    'use strict';
 
-      $scope.myName = 'Kalle';
-    })
+    $scope.myName = 'Kalle';
+
+    $scope.myFirstName = '';
+    $scope.myLastName = '';
+
+  })
 ;
