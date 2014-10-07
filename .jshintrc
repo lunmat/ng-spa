@@ -26,6 +26,7 @@
   "sub": true,
 
   "globals": {
+    "angular": false,
     "module": false,
     "require": false
   }
