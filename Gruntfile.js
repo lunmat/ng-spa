@@ -12,6 +12,13 @@ module.exports = function (grunt) {
           reporter: require('jshint-stylish')
         },
         src: 'Gruntfile.js'
+      },
+      src: {
+        options: {
+          jshintrc: '.jshintrc',
+          reporter: require('jshint-stylish')
+        },
+        src: ['src/**/*.js']
       }
     },
 
@@ -21,7 +28,6 @@ module.exports = function (grunt) {
         tasks: ['jshint:gruntfile']
       }
     }
-
 
   });
 
