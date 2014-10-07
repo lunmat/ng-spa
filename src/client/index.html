@@ -8,22 +8,7 @@
     <link href="./app.css" rel="stylesheet">
 </head>
 <body>
-
-    <form class="form-horizontal" name="myForm" ng-controller="myCtrl">
-        <div class="form-group">
-            <label for="name" class="col-sm-2 control-label">Name:</label>
-
-            <div class="col-sm-6">
-                <input id="name"
-                       class="form-control"
-                       name="name"
-                       type="text"
-                       required
-                       ng-model="myName">
-            </div>
-        </div>
-    </form>
-
+    <div data-ng-include="'app/regions/container.html'"></div>
     <script src="../../bower_components/angularjs/angular.js"></script>
     <script src="./app.js"></script>
 </body>
